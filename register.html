@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./styles/css/register.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Регистрация</h1>
+            <form>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" required placeholder="Введите ваше Имя">
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" required placeholder="Введите вашу почту">
+                </div>
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" required placeholder="Введите пароль">
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" required placeholder="Введите номер телефона">
+                </div>
+                <div>
+                    <i class="fa-solid fa-calendar"></i>
+                    <input type="date" required>
+                </div>
+                	<input type="submit" id="log__in" onclick="document.location='index.html'" value="Зарегестрироваться">
+            </form>
+            <span>
+                Уже зарегистрированы?
+                <a href="#">Войти</a>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
